@@ -1,0 +1,18 @@
+﻿<Window x:Class="bing_Maps0002.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:dxm="http://schemas.devexpress.com/winfx/2008/xaml/map"
+         xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+        xmlns:local="clr-namespace:bing_Maps0002"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <m:Map x:Name="myMap" CredentialsProvider="MxShsj8luUc9fKqvzXT0~5085NKTBzYTJJJsoZRtPzg~AsSSvEvAGivYaX7FnWKvHT5zlBNcBr8Ae-zn0D3IX8EAI0NVzOAG4niWdPu2FUUC"  Mode="Road"  Center="48.2339,14.8589" ZoomLevel="16" />
+        <Menu IsMainMenu="True" x:Name="menu" HorizontalAlignment="Left" Height="321" VerticalAlignment="Top" Width="100" Margin="0,0,0,-0.2">
+            <MenuItem Header="Start" Width="100" Height="25" Click="MenuItem_Click"/>
+        </Menu>
+
+    </Grid>
+</Window>
